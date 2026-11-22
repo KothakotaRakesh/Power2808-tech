@@ -13,20 +13,20 @@ A responsive, animated developer website for **Kothakota Rakesh**, B.Tech AI/ML 
 
 ## Site files
 
-- \`index.html\` — page structure, projects and content
-- \`assets/styles.css\` — visual design, layout, mobile styles and animations
-- \`assets/app.js\` — typed roles, interactive filtering, navigation and editable social links
-- \`assets/favicon.svg\` — R monogram favicon
+- `index.html` — page structure, projects and content
+- `assets/styles.css` — visual design, layout, mobile styles and animations
+- `assets/app.js` — typed roles, interactive filtering, navigation and editable social links
+- `assets/favicon.svg` — R monogram favicon
 
 ## Preview locally
 
 Clone the repository and start a static server:
 
-\`\`\`bash
+```bash
 git clone https://github.com/Rakesh192525075/Power2808-tech.git
 cd Power2808-tech
 python -m http.server 8000
-\`\`\`
+```
 
 Visit http://localhost:8000 in your browser.
 
@@ -42,21 +42,21 @@ The URL above is the expected Pages URL; it is **not** a claim that Pages is alr
 
 ## Add your social links
 
-Open \`assets/app.js\` and find:
+Open `assets/app.js` and find:
 
-\`\`\`js
+```js
 const socialLinks={linkedin:"",instagram:"",resume:""};
-\`\`\`
+```
 
 Replace empty strings with your real full HTTPS URLs. The links will appear in the Contact section. Empty fields stay hidden, avoiding broken links.
 
 ## GitHub profile README
 
-\`PROFILE_README.md\` contains a ready-to-use animated GitHub profile README. To activate it:
+`PROFILE_README.md` contains a ready-to-use animated GitHub profile README. To activate it:
 
 1. Create a **public** repository named exactly **Rakesh192525075** under the GitHub account **Rakesh192525075**.
-2. Add a file named \`README.md\` to that new repository.
-3. Copy the contents of this repository's \`PROFILE_README.md\` into that README and commit.
+2. Add a file named `README.md` to that new repository.
+3. Copy the contents of this repository's `PROFILE_README.md` into that README and commit.
 
 GitHub will then display the README on the user's profile. Third-party typing/stats widgets may occasionally be unavailable.
 
