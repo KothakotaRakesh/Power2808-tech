@@ -1,26 +1,65 @@
-# Rakesh | Animated Developer Portfolio
+# Kothakota Rakesh — One-Page Social Hub & Portfolio
 
-A responsive, animated developer website for **Kothakota Rakesh**, B.Tech AI/ML student and full-stack developer.
+A lightweight **single-page link hub** with GitHub, LinkedIn, email, and optional Instagram / WhatsApp / phone buttons. It is also the starting point for my more detailed animated developer portfolio.
+
+## Open the pages
+
+- **My links (main page):** https://kothakotarakesh.github.io/Power2808-tech/
+- **Full animated developer portfolio:** https://kothakotarakesh.github.io/Power2808-tech/portfolio.html
+- **Source repository:** https://github.com/KothakotaRakesh/Power2808-tech
+
+GitHub Pages builds from the public `main` branch and repository root. If publishing is still running, check **Settings → Pages** or **Actions**.
 
 ## Features
 
-- Dark futuristic visual design, animated gradient accents and floating code panel
-- Dynamic typing effect and decorative star field
-- Mobile-friendly navigation and accessible keyboard controls
-- Reduced-motion support for visitors who prefer less animation
-- Project cards with **All / Featured builds / On GitHub** filters
-- Real links to public academic repositories (without pretending that project prototypes are published)
+### Main link page
+- Personal avatar, name, description, animated dark glass-card design
+- LinkedIn, GitHub and email buttons
+- Optional WhatsApp, Instagram and call buttons (automatically hidden until actual details are provided)
+- Share button with native share or copy-link fallback
+- Mobile-responsive layout and accessible reduced-motion styles
 
-## Site files
+### Full portfolio
+- Animated introduction and decorative background
+- Skills, projects, GitHub repositories and contact section
+- Advanced mouse-follow hover effects, particles and 3D card tilt with reduced-motion support
 
-- `index.html` — page structure, projects and content
-- `assets/styles.css` — visual design, layout, mobile styles and animations
-- `assets/app.js` — typed roles, interactive filtering, navigation and editable social links
-- `assets/favicon.svg` — R monogram favicon
+## Files
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | Main, one-page social links hub |
+| `assets/links.css` | Hub design, mobile layout and effects |
+| `assets/links.js` | Optional contact links and page sharing |
+| `portfolio.html` | Original full animated portfolio (preserved) |
+| `assets/styles.css`, `assets/app.js` | Full portfolio styling and interaction |
+| `assets/advanced-effects.css`, `assets/advanced-effects.js` | Advanced animations for full portfolio |
+| `PROFILE_README.md` | GitHub profile README template |
+| `assets/favicon.svg` | Site favicon |
+
+## Add Instagram, WhatsApp and phone
+
+Open **`assets/links.js`**, then edit only these fields with information you are comfortable publishing:
+
+```js
+const socialConfig = Object.freeze({
+  instagram: "https://www.instagram.com/YOUR_USERNAME/",
+  whatsapp: "+91XXXXXXXXXX",
+  phone: "+91XXXXXXXXXX"
+});
+```
+
+- Replace the sample strings with **your real profile URL and phone numbers**.
+- Numbers must include the country code, e.g. `+91` for India.
+- Leave a field as `""` to hide that button.
+- Instagram is validated as an HTTPS link on instagram.com.
+- WhatsApp uses `https://wa.me/<international-number>`; the number is published in the page source and can be seen by visitors.
+
+**Privacy:** Adding your phone or WhatsApp number to a public page exposes it to everyone, including bots. Consider a separate professional contact number if privacy matters.
+
+The LinkedIn URL and existing academic email are included in `index.html` from the public GitHub profile; verify them if you later change accounts.
 
 ## Preview locally
-
-Clone the repository and start a static server:
 
 ```bash
 git clone https://github.com/KothakotaRakesh/Power2808-tech.git
@@ -28,38 +67,6 @@ cd Power2808-tech
 python -m http.server 8000
 ```
 
-Visit http://localhost:8000 in your browser.
+Open http://localhost:8000 for the social hub or http://localhost:8000/portfolio.html for the full portfolio.
 
-## Publish with GitHub Pages
-
-1. Open this repository's **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Choose **main** and **/(root)**, then click **Save**.
-4. Once GitHub completes publication, your site should be accessible at:
-   **https://kothakotarakesh.github.io/Power2808-tech/**
-
-The URL above is the expected Pages URL; it is **not** a claim that Pages is already enabled or live.
-
-## Add your social links
-
-Open `assets/app.js` and find:
-
-```js
-const socialLinks={linkedin:"",instagram:"",resume:""};
-```
-
-Replace empty strings with your real full HTTPS URLs. The links will appear in the Contact section. Empty fields stay hidden, avoiding broken links.
-
-## GitHub profile README
-
-`PROFILE_README.md` contains a ready-to-use animated GitHub profile README. To activate it:
-
-1. Create a **public** repository named exactly **KothakotaRakesh** under the GitHub account **KothakotaRakesh**.
-2. Add a file named `README.md` to that new repository.
-3. Copy the contents of this repository's `PROFILE_README.md` into that README and commit.
-
-GitHub will then display the README on the user's profile. Third-party typing/stats widgets may occasionally be unavailable.
-
-## Notes
-
-No tracking scripts, build steps, paid dependencies or API keys are required. External font and GitHub links need internet connectivity. Content and branding can be customized.
+All site files work as static pages on GitHub Pages. No Node.js setup or backend is required.
