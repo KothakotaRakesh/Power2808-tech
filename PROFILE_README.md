@@ -7,7 +7,7 @@
 **AI/ML Student · Full-Stack Developer · Open to Collaboration**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-151b2e?logo=github&logoColor=white)](https://github.com/KothakotaRakesh)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Website-66dacc?logo=githubpages&logoColor=081222)](https://github.com/KothakotaRakesh/Power2808-tech)
+[![Portfolio](https://img.shields.io/badge/Portfolio-All_My_Links-66dacc?logo=githubpages&logoColor=081222)](https://kothakotarakesh.github.io/Power2808-tech/)
 
 </div>
 
@@ -69,7 +69,7 @@
 
 ### Let's connect
 
-[**GitHub ↗**](https://github.com/KothakotaRakesh) · [**Portfolio source ↗**](https://github.com/KothakotaRakesh/Power2808-tech)
+[**GitHub ↗**](https://github.com/KothakotaRakesh) · [**Connect page ↗**](https://kothakotarakesh.github.io/Power2808-tech/) · [**Portfolio source ↗**](https://github.com/KothakotaRakesh/Power2808-tech)
 
 ---
 
