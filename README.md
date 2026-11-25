@@ -23,7 +23,7 @@ A responsive, animated developer website for **Kothakota Rakesh**, B.Tech AI/ML 
 Clone the repository and start a static server:
 
 ```bash
-git clone https://github.com/Rakesh192525075/Power2808-tech.git
+git clone https://github.com/KothakotaRakesh/Power2808-tech.git
 cd Power2808-tech
 python -m http.server 8000
 ```
@@ -36,7 +36,7 @@ Visit http://localhost:8000 in your browser.
 2. Under **Build and deployment**, choose **Deploy from a branch**.
 3. Choose **main** and **/(root)**, then click **Save**.
 4. Once GitHub completes publication, your site should be accessible at:
-   **https://rakesh192525075.github.io/Power2808-tech/**
+   **https://kothakotarakesh.github.io/Power2808-tech/**
 
 The URL above is the expected Pages URL; it is **not** a claim that Pages is already enabled or live.
 
@@ -54,7 +54,7 @@ Replace empty strings with your real full HTTPS URLs. The links will appear in t
 
 `PROFILE_README.md` contains a ready-to-use animated GitHub profile README. To activate it:
 
-1. Create a **public** repository named exactly **Rakesh192525075** under the GitHub account **Rakesh192525075**.
+1. Create a **public** repository named exactly **KothakotaRakesh** under the GitHub account **KothakotaRakesh**.
 2. Add a file named `README.md` to that new repository.
 3. Copy the contents of this repository's `PROFILE_README.md` into that README and commit.
 
