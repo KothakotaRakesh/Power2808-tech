@@ -6,8 +6,8 @@
 
 **AI/ML Student · Full-Stack Developer · Open to Collaboration**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-151b2e?logo=github&logoColor=white)](https://github.com/Rakesh192525075)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Website-66dacc?logo=githubpages&logoColor=081222)](https://github.com/Rakesh192525075/Power2808-tech)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-151b2e?logo=github&logoColor=white)](https://github.com/KothakotaRakesh)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Website-66dacc?logo=githubpages&logoColor=081222)](https://github.com/KothakotaRakesh/Power2808-tech)
 
 </div>
 
@@ -52,24 +52,24 @@
 
 ### On my GitHub
 
-- 📘 [Data Structures coursework](https://github.com/Rakesh192525075/CSA0350)
-- 🧠 [AI/ML coursework](https://github.com/Rakesh192525075/MLA0403)
-- 🧪 [Lab and capstone work](https://github.com/Rakesh192525075/CSA1417)
-- 🌐 [Animated portfolio source](https://github.com/Rakesh192525075/Power2808-tech)
+- 📘 [Data Structures coursework](https://github.com/KothakotaRakesh/CSA0350)
+- 🧠 [AI/ML coursework](https://github.com/KothakotaRakesh/MLA0403)
+- 🧪 [Lab and capstone work](https://github.com/KothakotaRakesh/CSA1417)
+- 🌐 [Animated portfolio source](https://github.com/KothakotaRakesh/Power2808-tech)
 
 ### GitHub activity
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Rakesh192525075&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub contribution statistics, when third-party service is available" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rakesh192525075&layout=compact&theme=tokyonight&hide_border=true" alt="GitHub language breakdown, when third-party service is available" />
+<img src="https://github-readme-stats.vercel.app/api?username=KothakotaRakesh&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub contribution statistics, when third-party service is available" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KothakotaRakesh&layout=compact&theme=tokyonight&hide_border=true" alt="GitHub language breakdown, when third-party service is available" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rakesh192525075&theme=tokyo-night&hide_border=true" alt="Contribution activity graph, when third-party service is available" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=KothakotaRakesh&theme=tokyo-night&hide_border=true" alt="Contribution activity graph, when third-party service is available" />
 
 </div>
 
 ### Let's connect
 
-[**GitHub ↗**](https://github.com/Rakesh192525075) · [**Portfolio source ↗**](https://github.com/Rakesh192525075/Power2808-tech)
+[**GitHub ↗**](https://github.com/KothakotaRakesh) · [**Portfolio source ↗**](https://github.com/KothakotaRakesh/Power2808-tech)
 
 ---
 
