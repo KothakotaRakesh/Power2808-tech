@@ -70,3 +70,16 @@ python -m http.server 8000
 Open http://localhost:8000 for the social hub or http://localhost:8000/portfolio.html for the full portfolio.
 
 All site files work as static pages on GitHub Pages. No Node.js setup or backend is required.
+
+## New contact page extras
+
+- **QR code:** \`assets/contact-qr.svg\` contains a scannable image for the public contact-page URL, plus a download link on the page.
+- **Save contact:** The \`Save my contact\` button downloads \`Kothakota-Rakesh-Contact.vcf\` with the already public name, phone, email, website, and social profiles.
+- **WhatsApp quick message:** Opens a WhatsApp draft with a short greeting. Nothing is sent automatically.
+- **Light/dark mode:** Visitors can switch the page theme; their preference is saved in their own browser where storage is available.
+- **Motion:** Subtle link entrances, hover effects and animated accents are turned off with system \`prefers-reduced-motion\`.
+- **Resume:** A disabled \`PDF coming soon\` display avoids a broken link until a genuine resume PDF is supplied.
+
+These enhancements live in \`assets/links-upgrades.css\` and \`assets/links-upgrades.js\` so the original page and links remain easy to maintain. The \`portfolio.html\` page is unchanged.
+
+**Privacy note:** Contact phone and WhatsApp numbers are intentionally public in the page and downloadable vCard. Do not share a private number here.
