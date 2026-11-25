@@ -10,9 +10,9 @@
   Cards remain hidden until valid values are provided.
 */
 const socialConfig = Object.freeze({
-  instagram: "",
-  whatsapp: "",
-  phone: ""
+  instagram: "https://www.instagram.com/power_2808/",
+  whatsapp: "+91 8317631534",
+  phone: "+91 8317631534"
 });
 
 function normalizeInternationalPhone(raw) {
