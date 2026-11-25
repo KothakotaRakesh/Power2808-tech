@@ -12,7 +12,9 @@
   <title>Kothakota Rakesh | Connect With Me</title>
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
   <link rel="stylesheet" href="./assets/links.css?v=1">
+  <link rel="stylesheet" href="./assets/links-upgrades.css?v=1">
   <script src="./assets/links.js?v=1" defer></script>
+  <script src="./assets/links-upgrades.js?v=1" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#links">Skip to links</a>
@@ -24,7 +26,12 @@
     <div class="page-shell">
       <header class="masthead">
         <a class="wordmark" href="./" aria-label="Kothakota Rakesh home"><span class="wordmark-box">KR<span>.</span></span> <span>RAKESH <span class="wordmark-sub">/ LINKS</span></span></a>
-        <span class="live-badge"><span class="live-dot"></span> Let's connect</span>
+        <div class="header-tools">
+          <span class="live-badge"><span class="live-dot"></span> Let's connect</span>
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false">
+            <span id="theme-icon" aria-hidden="true">☀</span><span id="theme-label">Light</span>
+          </button>
+        </div>
       </header>
 
       <article class="profile-card" aria-labelledby="person-name">
@@ -82,6 +89,34 @@
             </a>
           </div>
 
+          <section class="connection-tools" aria-labelledby="tools-heading">
+            <div class="section-divider"><span id="tools-heading">QUICK CONNECT</span></div>
+            <div class="tools-grid">
+              <div class="qr-card">
+                <img class="qr-image" src="./assets/contact-qr.svg" width="140" height="140"
+                  alt="QR code opening Kothakota Rakesh's contact links page" loading="lazy">
+                <div class="qr-details">
+                  <h3>Scan to connect</h3>
+                  <p>Open this page instantly from another phone.</p>
+                  <a href="./assets/contact-qr.svg" download="KothakotaRakesh-Contact-QR.svg" class="qr-download">↓ Download QR code</a>
+                </div>
+              </div>
+              <div class="contact-tools">
+                <button type="button" id="save-contact" class="utility-button">
+                  <span class="utility-icon" aria-hidden="true">▣</span>
+                  <span><strong>Save my contact</strong><small>Download a phone contact (.vcf)</small></span>
+                  <span class="utility-arrow" aria-hidden="true">↓</span>
+                </button>
+                <div class="utility-button resume-soon" aria-label="Resume download will be available after a PDF is added">
+                  <span class="utility-icon" aria-hidden="true">▤</span>
+                  <span><strong>Download resume</strong><small>PDF coming soon</small></span>
+                  <span class="resume-pill">SOON</span>
+                </div>
+              </div>
+            </div>
+            <p id="tool-status" class="tool-status" role="status" aria-live="polite"></p>
+          </section>
+          
           <div class="section-divider"><span>MY WORK</span></div>
           <a class="portfolio-cta" href="./portfolio.html" aria-label="Open my full animated portfolio">
             <span class="portfolio-icon" aria-hidden="true">&lt;/&gt;</span>
