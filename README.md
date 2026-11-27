@@ -12,6 +12,9 @@ GitHub Pages builds from the public `main` branch and repository root. If publis
 
 ## Features
 
+The profile README and animated portfolio intentionally omit project showcases; coursework and repositories remain available on GitHub.
+
+
 ### Main link page
 - Personal avatar, name, description, animated dark glass-card design
 - LinkedIn, GitHub and email buttons
@@ -21,7 +24,7 @@ GitHub Pages builds from the public `main` branch and repository root. If publis
 
 ### Full portfolio
 - Animated introduction and decorative background
-- Skills, projects, GitHub repositories and contact section
+- About, skills, GitHub information and contact section
 - Advanced mouse-follow hover effects, particles and 3D card tilt with reduced-motion support
 
 ## Files
