@@ -15,8 +15,10 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/styles.css">
   <link rel="stylesheet" href="./assets/advanced-effects.css?v=2">
+  <link rel="stylesheet" href="./assets/pro-portfolio.css?v=1">
   <script defer src="./assets/app.js"></script>
   <script defer src="./assets/advanced-effects.js?v=2"></script>
+  <script defer src="./assets/pro-portfolio.js?v=1"></script>
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -31,6 +33,7 @@
       <div class="nav-links" id="navigation">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
+        <a href="#expertise">Expertise</a>
         <a href="#github">GitHub</a>
         <a href="#contact" class="nav-contact">Let's connect <span aria-hidden="true">↗</span></a>
       </div>
@@ -89,8 +92,60 @@
         <article class="skill-card reveal"><div class="skill-icon">⬡</div><h3>Exploration</h3><p>Cybersecurity · Compiler Design · Hackathons</p><span class="card-index">06</span></article>
       </div>
     </div></section>
-    <section class="section section-tinted" id="github" aria-labelledby="github-title"><div class="shell github-band reveal"><div><span class="section-kicker">03 / THE CODE</span><h2 id="github-title">Follow the <span class="gradient-text">commits.</span></h2><p>My GitHub is where I document classes, build experiments and share what I'm learning.</p><a class="btn btn-primary" href="https://github.com/KothakotaRakesh?tab=repositories" target="_blank" rel="noopener noreferrer">Browse repositories <span aria-hidden="true">↗</span></a></div><div class="github-panel"><div class="github-panel-top"><span class="panel-dot"></span> github.com<span class="panel-path">/KothakotaRakesh</span></div><div class="github-logo" aria-hidden="true">git<span>hub</span><span class="slash">/</span></div><p>Code. Learn. Iterate. Repeat.</p></div></div></section>
-    <section class="section shell contact-section" id="contact" aria-labelledby="contact-title"><div class="contact-box reveal"><span class="section-kicker">04 / SAY HELLO</span><h2 id="contact-title">Have an idea?<br><span class="gradient-text">Let's build it.</span></h2><p>Interested in a collaboration, a hackathon team, or just talking technology? My GitHub is a great place to connect.</p><div class="contact-actions"><a class="btn btn-primary" href="https://github.com/KothakotaRakesh" target="_blank" rel="noopener noreferrer">Connect on GitHub <span aria-hidden="true">↗</span></a><a class="btn btn-secondary" href="./">View my links <span aria-hidden="true">↗</span></a></div><div class="optional-socials" id="optional-socials" aria-label="Additional social links"></div></div></section>
+    <section class="section shell focus-section" id="expertise" aria-labelledby="expertise-title">
+      <div class="section-heading reveal">
+        <span class="section-kicker">03 / EXPLORE MY EXPERTISE</span>
+        <h2 id="expertise-title">Explore the <span class="gradient-text">toolkit.</span></h2>
+        <p>Four areas that shape how I learn, experiment and build. Select a tab to explore each focus.</p>
+      </div>
+      <div class="focus-workspace reveal">
+        <div class="focus-topline"><span><span class="focus-led" aria-hidden="true"></span> PROFILE / SKILL EXPLORER</span><span class="focus-version">INTERACTIVE OVERVIEW</span></div>
+        <div class="focus-layout">
+          <div class="focus-tablist" role="tablist" aria-label="Explore technical focus areas" aria-orientation="vertical">
+            <button type="button" class="focus-tab is-current" id="focus-tab-ui" role="tab" aria-controls="focus-ui" aria-selected="true" tabindex="0"><span class="focus-tab-number">01</span><span>UI & frontend</span><span aria-hidden="true">↗</span></button>
+            <button type="button" class="focus-tab" id="focus-tab-api" role="tab" aria-controls="focus-api" aria-selected="false" tabindex="-1"><span class="focus-tab-number">02</span><span>APIs & backend</span><span aria-hidden="true">↗</span></button>
+            <button type="button" class="focus-tab" id="focus-tab-ai" role="tab" aria-controls="focus-ai" aria-selected="false" tabindex="-1"><span class="focus-tab-number">03</span><span>AI & algorithms</span><span aria-hidden="true">↗</span></button>
+            <button type="button" class="focus-tab" id="focus-tab-work" role="tab" aria-controls="focus-work" aria-selected="false" tabindex="-1"><span class="focus-tab-number">04</span><span>Developer workflow</span><span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="focus-stage">
+            <article class="focus-panel" id="focus-ui" role="tabpanel" aria-labelledby="focus-tab-ui" tabindex="0">
+              <div class="focus-glyph" aria-hidden="true">◫</div>
+              <p class="focus-eyebrow">INTERFACE ENGINEERING</p>
+              <h3>Build for <em>people first.</em></h3>
+              <p>Responsive layouts, intuitive navigation and purposeful animation. I work with the web stack to make technical ideas easier to use.</p>
+              <div class="focus-tags"><span>React</span><span>Next.js</span><span>JavaScript</span><span>HTML / CSS</span></div>
+              <div class="focus-note"><span aria-hidden="true">✦</span> Current interest: readable, responsive interactions</div>
+            </article>
+            <article class="focus-panel" id="focus-api" role="tabpanel" aria-labelledby="focus-tab-api" tabindex="0" hidden>
+              <div class="focus-glyph" aria-hidden="true">⌘</div>
+              <p class="focus-eyebrow">SERVER-SIDE DEVELOPMENT</p>
+              <h3>Make the <em>logic reliable.</em></h3>
+              <p>Design APIs, handle data and connect services with a focus on clear structure, reusable Python code and practical testing.</p>
+              <div class="focus-tags"><span>FastAPI</span><span>Flask</span><span>REST</span><span>SQLite / SQL</span></div>
+              <div class="focus-note"><span aria-hidden="true">✦</span> Current interest: clean service architecture</div>
+            </article>
+            <article class="focus-panel" id="focus-ai" role="tabpanel" aria-labelledby="focus-tab-ai" tabindex="0" hidden>
+              <div class="focus-glyph" aria-hidden="true">✳</div>
+              <p class="focus-eyebrow">INTELLIGENCE & ALGORITHMS</p>
+              <h3>Think in <em>data and graphs.</em></h3>
+              <p>Explore machine learning and algorithms through experiments, coursework and applied problem-solving.</p>
+              <div class="focus-tags"><span>Python</span><span>Machine Learning</span><span>Graph Algorithms</span><span>Data Structures</span></div>
+              <div class="focus-note"><span aria-hidden="true">✦</span> Current interest: measurable and explainable results</div>
+            </article>
+            <article class="focus-panel" id="focus-work" role="tabpanel" aria-labelledby="focus-tab-work" tabindex="0" hidden>
+              <div class="focus-glyph" aria-hidden="true">⎇</div>
+              <p class="focus-eyebrow">ENGINEERING HABITS</p>
+              <h3>Learn. Build. <em>Improve.</em></h3>
+              <p>Practice version control, development workflows and system-level thinking while exploring cybersecurity and hackathon challenges.</p>
+              <div class="focus-tags"><span>Git / GitHub</span><span>Docker</span><span>Testing</span><span>Cybersecurity</span></div>
+              <div class="focus-note"><span aria-hidden="true">✦</span> Current interest: reproducible development</div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-tinted" id="github" aria-labelledby="github-title"><div class="shell github-band reveal"><div><span class="section-kicker">04 / THE CODE</span><h2 id="github-title">Follow the <span class="gradient-text">commits.</span></h2><p>My GitHub is where I document classes, build experiments and share what I'm learning.</p><a class="btn btn-primary" href="https://github.com/KothakotaRakesh?tab=repositories" target="_blank" rel="noopener noreferrer">Browse repositories <span aria-hidden="true">↗</span></a></div><div class="github-panel"><div class="github-panel-top"><span class="panel-dot"></span> github.com<span class="panel-path">/KothakotaRakesh</span></div><div class="github-logo" aria-hidden="true">git<span>hub</span><span class="slash">/</span></div><p>Code. Learn. Iterate. Repeat.</p></div></div></section>
+    <section class="section shell contact-section" id="contact" aria-labelledby="contact-title"><div class="contact-box reveal"><span class="section-kicker">05 / SAY HELLO</span><h2 id="contact-title">Have an idea?<br><span class="gradient-text">Let's build it.</span></h2><p>Interested in a collaboration, a hackathon team, or just talking technology? My GitHub is a great place to connect.</p><div class="contact-actions"><a class="btn btn-primary" href="https://github.com/KothakotaRakesh" target="_blank" rel="noopener noreferrer">Connect on GitHub <span aria-hidden="true">↗</span></a><a class="btn btn-secondary" href="./">View my links <span aria-hidden="true">↗</span></a></div><div class="optional-socials" id="optional-socials" aria-label="Additional social links"></div></div></section>
   </main>
   <footer class="site-footer"><div class="shell footer-inner"><a class="brand" href="#top"><span class="brand-symbol">R<span class="brand-accent">.</span></span><span class="brand-label">RAKESH<span class="muted">/dev</span></span></a><span>Made with curiosity, code & lots of ☕</span><a href="#top" class="back-to-top">Back to top ↑</a></div></footer>
 </body>
