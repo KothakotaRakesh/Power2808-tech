@@ -4,6 +4,11 @@
   const tabs = [...document.querySelectorAll('.focus-tablist [role="tab"]')];
   const panels = tabs.map(t => document.getElementById(t.getAttribute("aria-controls")));
   if (tabs.length && panels.every(Boolean)) {
+    const tabList = document.querySelector(".focus-tablist");
+    const smallScreen = window.matchMedia("(max-width: 690px)");
+    const setOrientation = () => tabList?.setAttribute("aria-orientation", smallScreen.matches ? "horizontal" : "vertical");
+    setOrientation();
+    smallScreen.addEventListener("change", setOrientation);
     const select = (index, withFocus = false) => {
       tabs.forEach((tab, i) => {
         const active = i === index;
