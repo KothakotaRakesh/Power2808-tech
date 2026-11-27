@@ -49,17 +49,6 @@ if(!reducedMotion){
   }
   stars.appendChild(fragment);
 }
-const filters=document.querySelectorAll(".filter");
-const cards=document.querySelectorAll(".project-card");
-filters.forEach(button=>button.addEventListener("click",()=>{
-  const selected=button.dataset.filter;
-  filters.forEach(item=>{
-    const active=item===button;
-    item.classList.toggle("is-active",active);
-    item.setAttribute("aria-pressed",String(active));
-  });
-  cards.forEach(card=>{card.hidden=selected!=="all"&&card.dataset.category!==selected});
-}));
 // Insert real public social links below; leave unknown ones empty.
 // Example: linkedin: "https://www.linkedin.com/in/YOUR-HANDLE/"
 const socialLinks={linkedin:"",instagram:"",resume:""};
