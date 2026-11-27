@@ -13,8 +13,10 @@
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
   <link rel="stylesheet" href="./assets/links.css?v=1">
   <link rel="stylesheet" href="./assets/links-upgrades.css?v=1">
+  <link rel="stylesheet" href="./assets/pro-hub.css?v=1">
   <script src="./assets/links.js?v=1" defer></script>
   <script src="./assets/links-upgrades.js?v=1" defer></script>
+  <script src="./assets/pro-hub.js?v=1" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#links">Skip to links</a>
@@ -53,7 +55,17 @@
 
         <div class="tags" aria-label="Interests"><span>✳ AI / ML</span><span>⌘ Full-Stack</span><span>◈ Building Projects</span></div>
 
-        <section class="links-section" id="links" aria-labelledby="links-heading">
+        <nav class="hub-nav" aria-label="Explore profile sections">
+          <div class="hub-tablist" role="tablist" aria-label="Contact page tabs">
+            <button class="hub-tab is-current" id="tab-connect" role="tab" aria-controls="panel-connect" aria-selected="true" tabindex="0" type="button"><span aria-hidden="true">↗</span> Connect</button>
+            <button class="hub-tab" id="tab-about" role="tab" aria-controls="panel-about" aria-selected="false" tabindex="-1" type="button"><span aria-hidden="true">◎</span> About</button>
+            <button class="hub-tab" id="tab-skills" role="tab" aria-controls="panel-skills" aria-selected="false" tabindex="-1" type="button"><span aria-hidden="true">⌘</span> Skills</button>
+            <button class="hub-tab" id="tab-tools" role="tab" aria-controls="panel-tools" aria-selected="false" tabindex="-1" type="button"><span aria-hidden="true">▧</span> Tools</button>
+          </div>
+        </nav>
+        <section class="links-section" id="links" aria-label="Explore contact page">
+          <div class="hub-panel" id="panel-connect" role="tabpanel" aria-labelledby="tab-connect" tabindex="0">
+
           <div class="section-header"><h2 id="links-heading">Find me online</h2><span class="section-count">MY LINKS <span aria-hidden="true">↘</span></span></div>
 
           <div class="links-stack">
@@ -88,7 +100,33 @@
               <span class="link-arrow" aria-hidden="true">↗</span>
             </a>
           </div>
+          </div>
 
+          <div class="hub-panel" id="panel-about" role="tabpanel" aria-labelledby="tab-about" tabindex="0" hidden>
+            <div class="section-header"><h2>About me</h2><span class="section-count">WHO I AM ↘</span></div>
+            <div class="about-editorial">
+              <p class="about-lead">Building ideas into <span>useful digital experiences.</span></p>
+              <p>I'm a B.Tech Artificial Intelligence & Machine Learning student at Saveetha Institute of Medical and Technical Sciences, Chennai. I enjoy combining thoughtful user interfaces, backend engineering, and machine learning.</p>
+              <div class="about-fact-grid">
+                <div class="about-fact"><span class="fact-symbol" aria-hidden="true">◈</span><small>EDUCATION</small><strong>B.Tech — AI & ML</strong></div>
+                <div class="about-fact"><span class="fact-symbol" aria-hidden="true">⌘</span><small>INTERESTS</small><strong>Full-Stack · Algorithms</strong></div>
+                <div class="about-fact"><span class="fact-symbol" aria-hidden="true">✳</span><small>EXPLORING</small><strong>AI · Cybersecurity</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hub-panel" id="panel-skills" role="tabpanel" aria-labelledby="tab-skills" tabindex="0" hidden>
+            <div class="section-header"><h2>Technical toolkit</h2><span class="section-count">WHAT I USE ↘</span></div>
+            <div class="mini-skill-grid">
+              <article class="mini-skill"><span class="mini-skill-icon" aria-hidden="true">&lt;/&gt;</span><h3>Languages</h3><p>Python · JavaScript · C · HTML · CSS · SQL</p></article>
+              <article class="mini-skill"><span class="mini-skill-icon" aria-hidden="true">◫</span><h3>Frontend</h3><p>React · Next.js · Responsive UI</p></article>
+              <article class="mini-skill"><span class="mini-skill-icon" aria-hidden="true">◎</span><h3>Backend</h3><p>FastAPI · Flask · REST APIs · Databases</p></article>
+              <article class="mini-skill"><span class="mini-skill-icon" aria-hidden="true">✳</span><h3>AI & Tools</h3><p>Machine Learning · Git · Docker · Graph Algorithms</p></article>
+            </div>
+            <p class="skill-footnote">A growing toolkit — learning by building, testing and refining.</p>
+          </div>
+
+          <div class="hub-panel" id="panel-tools" role="tabpanel" aria-labelledby="tab-tools" tabindex="0" hidden>
           <section class="connection-tools" aria-labelledby="tools-heading">
             <div class="section-divider"><span id="tools-heading">QUICK CONNECT</span></div>
             <div class="tools-grid">
@@ -116,7 +154,8 @@
             </div>
             <p id="tool-status" class="tool-status" role="status" aria-live="polite"></p>
           </section>
-          
+          </div>
+
           <div class="section-divider"><span>MY WORK</span></div>
           <a class="portfolio-cta" href="./portfolio.html" aria-label="Open my full animated portfolio">
             <span class="portfolio-icon" aria-hidden="true">&lt;/&gt;</span>
